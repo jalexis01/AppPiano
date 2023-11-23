@@ -6,7 +6,7 @@ Descripción concisa del proyecto.
 
 Asegúrate de tener Node.js y npm instalados antes de continuar.
 
-1. Clona este repositorio: `git clone https://github.com/tuusuario/tuproyecto.git`
+1. Clona este repositorio: `git clone https://github.com/jalexis01/AppPiano.git`
 2. Navega al directorio del proyecto:
 3. Instala las dependencias: `npm install`
 
