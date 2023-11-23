@@ -1,6 +1,6 @@
 # AppPiano
 
-Descripción concisa del proyecto.
+Proyecto para la materia de Moviles II
 
 ## Instalación
 
