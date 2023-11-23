@@ -1,20 +1,29 @@
+<!--<div class="container">
+  <div *ngFor="let element of listElements" class="box" (click)="aplicarSonido(element.numeroSonido)"[style.background-color]="element.color"></div>
+</div>-->
+
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="light">
     <ion-title>
-      Blank
+  App Piano
     </ion-title>
+    <ion-button>
+        <ion-icon slot="icon-only" name="musical-notes-outline"></ion-icon>
+      </ion-button>
   </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
   </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+ 
+  <div class="container">
+    <div *ngFor="let element of listElements" class="box" (click)="aplicarSonido(element.numeroSonido)"
+    [style.background-color]="element.color">
   </div>
-</ion-content>
+  </div>
+ 
+  <ion-footer>
+    <ion-toolbar color="light">
+      <ion-buttons slot="start">
+        <ion-back-button default-href="#"></ion-back-button>
+      </ion-buttons>
+      <ion-title></ion-title>
+    </ion-toolbar>
+  </ion-footer>
