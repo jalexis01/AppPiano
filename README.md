@@ -1,7 +1,5 @@
 # AppPiano
 
-# Nombre del Proyecto
-
 Descripción concisa del proyecto.
 
 ## Instalación
